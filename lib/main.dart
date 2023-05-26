@@ -263,7 +263,7 @@ class _GameWidgetState extends State<GameWidget> {
     return Stack(
       children: <Widget>[
         Image.network(
-          'https://prototyingstorage.blob.core.windows.net/files/space-background.png',
+          'https://raw.githubusercontent.com/tolo/flutter_ai_asteroids/257d96bc08ca154946a2ee4fa8016c94f94dc1fe/space-background.png',
           width: screenSize.width,
           height: screenSize.height,
           fit: BoxFit.cover,
